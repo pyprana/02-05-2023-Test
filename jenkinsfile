@@ -1,1 +1,10 @@
+// Jenkins file
+pipeline
+{
+    stages {
 
+        steps {
+            echo "This is for double quotes"
+        }
+    }
+}
