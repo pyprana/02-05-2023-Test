@@ -4,7 +4,19 @@ pipeline
     stages {
 
         steps {
+            
             echo "This is for double quotes"
+        
+        }
+    
+    stages {
+
+        steps {
+
+            echo 'This is for single quotes'
         }
     }
+    
+    }
+
 }
