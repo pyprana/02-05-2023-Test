@@ -16,6 +16,23 @@ pipeline
             echo 'This is for single quotes'
         }
     }
+
+    stages {
+
+        steps {
+
+            sh 'this is single quotes'
+        }
+    }
+
+    stages {
+
+        steps {
+
+            sh "This is double quotes"
+            
+        }
+    }
     
     }
 
